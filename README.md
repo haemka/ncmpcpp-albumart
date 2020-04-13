@@ -32,4 +32,4 @@ execute_on_song_change="~/.ncmpcpp/art.sh"
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/haemka/ncmpcc-albumart/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/haemka/ncmpcpp-albumart/master/screenshot.png)
