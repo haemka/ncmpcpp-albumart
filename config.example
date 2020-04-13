@@ -1,0 +1,19 @@
+ncmpcpp_directory = ~/.ncmpcpp
+mpd_host = localhost
+mpd_music_dir = ~/Music
+visualizer_fifo_path = /tmp/mpd.fifo
+visualizer_output_name = FIFO Out
+visualizer_in_stereo = yes
+visualizer_sync_interval = "10"
+visualizer_type = spectrum
+visualizer_look = ▮▮ 
+media_library_primary_tag = album_artist
+
+execute_on_song_change="~/.config/ncmpcpp/art.sh"
+
+song_window_title_format = "ncmpcpp{ - %A}{ - %t}"
+song_list_format = "                                      │ {%A - }|{%a - }{%t}|{$8%f$9}$R{$3(%l)$9}"
+song_status_format = {{{%A}|{%a}{ "%b"{ (%y)}} ● }{%t}}|{%f}
+progressbar_look = "▃▃▃"
+playlist_display_mode = "classic"
+
