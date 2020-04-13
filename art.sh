@@ -8,7 +8,7 @@ COVER=/tmp/cover.png
 
 function reset_background
 {
-    printf "\e]20;;100x100+1000+1000\a"
+  printf "\e]20;;100x100+1000+1000\a"
 }
 
 {
@@ -22,7 +22,7 @@ function reset_background
   src="$(echo -n "$covers" | head -n1)"
   rm -f "$COVER"
   if [[ -n "$src" ]] ; then
-	  windowsize=$(xdotool getwindowgeometry $WINDOWID | awk '/Geometry/ {print $2}')
+    windowsize=$(xdotool getwindowgeometry $WINDOWID | awk '/Geometry/ {print $2}')
     x=$(echo $windowsize | cut -d'x' -f1)
     imgsize=$((x/5))
     extsize=$((imgsize/10))

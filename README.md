@@ -16,7 +16,7 @@ prefixed color code in the Xresources file.
 | mpc         | Reads the current song                                              |
 | gawk        | Does various string manipulations                                   |
 | xrdb        | Reads the terminals configuration                                   |
-| xdotool     | Checks the shells terminals window geometry                         |
+| xdotool     | Checks the terminals window geometry                                |
 | ImageMagick | Creates the background image                                        |
 
 ## Configuration
@@ -25,7 +25,7 @@ Set the `execute_on_song_change` variable in ncmpcpp's config to the path to
 `art.sh`.
 
 ```
-execute_on_song_change="~/.ncmpcpp/art.sh"
+execute_on_song_change="~/.config/ncmpcpp/art.sh"
 ```
 
 `config.example` contains the configuration used for the screenshot below.
